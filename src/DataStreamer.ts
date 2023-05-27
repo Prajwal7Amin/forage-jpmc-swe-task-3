@@ -7,6 +7,8 @@ export interface ServerRespond {
   top_bid: Order,
   top_ask: Order,
   timestamp: Date,
+  price_abc: number,
+  price_def: number,
 }
 
 class DataStreamer {
